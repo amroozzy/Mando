@@ -1,0 +1,74 @@
+body {
+background-color:darkgray;
+width: auto;
+height: auto;
+}
+
+
+.container{
+width: 300px;
+height:270px;
+border:1px white solid;
+border-radius:3px;
+margin:160px 500;
+background-color:snow;
+}
+
+.container h2{
+font-family:serif;
+text-align: center;
+color:black;
+text-transform:capitalize;
+
+    
+    
+}
+.avatar{
+width:130px;
+height: auto;
+margin:0px 85px; 
+position: absolute;
+top:110px;
+left:520px;
+}
+.img{
+width:75px;
+height:auto;
+margin: 10px 15px;
+}
+
+.log, .psw{
+width:250px;
+height:25px;
+margin:10px 30px;
+border:1px black solid;
+border-radius:3px; 
+text-align: center;
+font-size:16px;
+font-family:cursive;
+text-transform: capitalize;
+}
+.button{
+width:250px;
+height:25px;
+margin:10px 30px;
+border:1px black solid;
+border-radius:3px; 
+text-align: center;
+font-size:16px;
+font-family:cursive;
+background-color:#46A049;
+color: aliceblue;
+cursor: pointer;
+text-transform: capitalize;
+}
+.button:hover{
+background-color: darkgray;
+}
+.forgot{
+margin:auto 20px;
+text-transform: capitalize;
+}
+.forgot:hover{
+color:#46A049;
+}
